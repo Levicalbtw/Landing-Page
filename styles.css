@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 300px;
+}
+
+.header-left {
+    font-weight: bold;
+    font-size: 32px;
+}
