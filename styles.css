@@ -1,6 +1,5 @@
 body {
-    display: flex;
-    flex-direction: column;
+   
     font-family: "Roboto", Helvetica, serif ;
 }
 
@@ -65,4 +64,44 @@ button {
 ul {
     display: flex;
     gap: 30px
+}
+
+html, body {
+    margin: 0;
+    padding: 0
+}
+
+.boxes {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.box {
+    height: 150px;
+    border: solid 3px #3882F6;
+    border-radius: 20px;
+    display: flex;
+}
+
+.secheader {
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.firstsec {
+    padding: 15px 0px 50px 0px;
+    text-align: center;
+    background-color: #F9FAF8;
+    color: rgb(149, 148, 148);
+    display: flex;
+    flex-direction: row;
+}
+
+.boxcolumn {
+    width:150px;
 }
